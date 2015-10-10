@@ -5,10 +5,9 @@
 
 #include "test3rd/test.h"
 
-int _tmain(int argc, _TCHAR* argv[])
+int _tmain(int argc, wchar_t* argv[])
 {
 	testgTest(&argc, argv);
 	testgLog();
-
 	return 0;
 }
