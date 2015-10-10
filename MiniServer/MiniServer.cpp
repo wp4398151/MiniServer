@@ -2,13 +2,13 @@
 //
 
 #include "stdafx.h"
-//#include "WpLogHelper.h"
 
-#include <glog/logging.h>
-#include <windows.h>
+#include "test3rd/test.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	LOG(INFO) << "GLOG !";
+	testgTest(&argc, argv);
+	testgLog();
+
 	return 0;
 }
